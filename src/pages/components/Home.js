@@ -2,7 +2,6 @@ import React from "react"
 import MahadInfo from "./homeComponents/MahadInfo"
 import NavIcons from "./homeComponents/NavIcons"
 import Scene from "./homeComponents/Scene"
-import FadeIn from 'react-fade-in'
 
 function Home(){
 

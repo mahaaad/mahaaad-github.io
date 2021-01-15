@@ -6,7 +6,6 @@ function MahadInfo(){
 
     }
 
-    var blink = false
     const Name = styled.h1`
         font-size: 5.5vw;
         float: left;
