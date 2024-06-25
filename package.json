@@ -25,7 +25,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "webpack serve --open --mode development",
+    "start": "react-scripts start",
     "build": "webpack --mode production",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
