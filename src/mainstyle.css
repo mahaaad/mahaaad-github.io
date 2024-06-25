@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+*{
+  font-family: Circe;
+  margin-left: 0;
+  margin-right: 0;
+}
+#animation{
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  animation: animation 0.5s 1;
+  -webkit-animation:animation 0.5s 1;
+  animation-fill-mode: forwards;
+
+  animation-delay:3s;
+  -webkit-animation-delay:3s; /* Safari and Chrome */
+  -webkit-animation-fill-mode: forwards;
+}
+@keyframes animation{
+  from {opacity :1; z-index: 5;}
+  to {opacity :0; z-index: 0;}
+}
+
+@-webkit-keyframes animation{
+  from {opacity :1; z-index: 5;}
+  to {opacity :0; z-index: 0;}
+}
+
+.arrowicon{
+  animation-name: example;
+  animation-iteration-count:infinite;
+  position: absolute;
+  top: 49.5vw;
+  left: 47vw;
+  width: 2vw;
+  opacity: 50%;
+}
+.sectiontitle hr{
+  display: inline-block;
+  width: 35vw;
+  opacity: 30%;
+}
+.sectiontitle{
+  margin-top: 7vw;
+  margin-bottom: 2.5vw;
+  text-align: center;
+
+}
+.sectiontitle h2{
+  display: inline-block;
+  line-height: 0%;
+  font-size: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.sectiontitle img{
+  display: inline-block;
+  margin-right: 1vw;
+  width: 1.5vw;
+}
+.portfoliosection div{
+  float: left;
+}
