@@ -222,8 +222,8 @@ const MainPage = () =>{
         <h1 style={{fontSize: "3vw", opacity: "80%", float: "left"}}> Touch /</h1>
         <h1 style={{fontSize: "3vw", opacity: "15%", float: "left"}}>{">"}</h1>
         <p style={{marginTop: "-1vw", marginBottom: "10vw", float: "left", marginLeft: "3vw", fontWeight: "lighter", fontSize: "1vw", opacity: "50%", paddingRight: "7.5vw"}}>
-            I am currently seeking software development and design internship opportunities for summer 2021.
-            Feel free to message me regarding opportunities, or if you have any questions at <a href="mahad.rehan@gmail.com">mahad.rehan@gmail.com </a>
+            I am currently seeking software roles, freelancing opportunities, and open to collaborate as well .
+            Feel free to reach out me or if you have any questions at <a href="mahad.rehan@gmail.com">mahad.rehan@gmail.com </a>
             or at <a href="https://linkedin.com/in/mahadrehan">https://linkedin.com/in/mahadrehan</a>
         </p>
         </div>
