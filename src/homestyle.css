@@ -1,0 +1,21 @@
+.navicons {
+  position: fixed;
+  width: 2.5vw;
+  top: 32vw;
+  left: 1vw;
+  z-index: 3;
+
+}
+.navicons img {
+  margin-bottom: 0.5vw;
+  width: 2vw;
+  transition: all 0.2s ease-in-out;
+  opacity: 50%;
+  cursor: pointer;
+}
+.mahadvector {
+  position: absolute;
+  top: 30vw;
+  left: 75vw;
+  height: 17.5vw;
+}
